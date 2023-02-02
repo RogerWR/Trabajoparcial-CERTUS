@@ -1,0 +1,80 @@
+<head>
+    <title>Formulario Rotali Sport</title>
+    <meta charset="uth-8">
+<style>
+    body{
+        background-color: rgb(205, 228, 228);
+    }
+    h1 {
+        color:darkblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h3{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #Encabezado {
+        background-color: cornflowerblue;
+        padding: 15px;
+    }
+   
+</style>
+        
+</head>
+<body>
+    <div id="Encabezado">
+
+        <h1>Rotali Sport</h1>
+        <P>Las Mejores Marcas de Zapatillas</P>
+
+    </div>
+
+    <div id="FormularioContacto">
+    <h3>Regístrate</h3>
+    <form action="registrocontacto.html" method="post">
+        <!-- CAMPOS DE TEXTOS -->
+        <label for="name">Nombre Completo</label>
+        <input id="name" type="text" placeholder="escribe aqui tu nombre" maxlength="15">
+        <p></p>
+        <label for="email">Correo Electrónico</label>
+        <input id="email" type="text" value="@">
+        <p></p>
+        <label for="telefono">Teléfono o Celular</label>
+        <input id="telefono" type="text">
+        <p></p>
+        <label for="city">Ciudad</label>
+        <input id="city" type="text">
+        <p></p>
+        <label for="formacontacto">Cómo nos conociste?</label>
+        <input id="formacontacto" type="text">
+
+        <!-- CAMPOS DE OPCIONES -->
+        <h3>Tipo de Consulta</h3>
+        <label for="tipoConsulta01">Información</label>
+        <input id="tipoConsulta01" name="typeConsult" type="radio" checked>
+        <p></p>
+        <label for="tipoConsulta02">Reclamos</label>
+        <input id="tipoConsulta02" name="typeConsult" type="radio">
+
+        <h3>Tipo de Persona</h3>
+        <label for="tipoPersona01">Natural</label>
+        <input id="tipoPersona01" name="typePerson" type="radio" checked>
+        <p></p>
+        <label for="tipoPersona02">Juridica</label>
+        <input id="tipoPersona02" name="typePerson" type="radio">
+
+        <!-- CAMPOS BOTONES -->
+        <p></p>
+        <input type="submit" value="Enviar">
+
+    </form>
+    </div>
+
+    <div id="pie">
+        <p>Sitio Web construido por RRG 2023</p>
+
+    </div>
+</body>
